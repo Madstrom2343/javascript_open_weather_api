@@ -1,0 +1,60 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: #535252;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1616355502193-1a9d0773f7b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+input[type="text"] {
+    font-size: 1.5em;
+    padding: 10px;
+    border: solid 5px #535252;
+    transition: border 1s;
+    border-radius: 4px;
+}
+
+input[type="text"]:hover, input[type="text"].focus {
+    border: solid 5px #28aadc;
+}
+
+button {
+    margin-top: 20px;
+    color: #28c1dc;
+    background-color: #535252;
+    border: 2px solid #28aadc;
+    border-radius: 4px;
+    padding: 12px 18px;
+}
+
+button:hover {
+    background: #28c1dc;
+    color: #535252;
+}
+
+#weather {
+    margin: 50px auto;
+    padding: 20px;
+    background: #dadada;
+    border: 5px solid #535252;
+    display: none;
+    border-radius: 4px;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+}
